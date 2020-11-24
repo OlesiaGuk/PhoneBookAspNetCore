@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook", "PhoneBook\PhoneBook.csproj", "{B2B34DAC-73F0-4A2F-AF33-32DCF0A72AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook", "PhoneBook\PhoneBook.csproj", "{B2B34DAC-73F0-4A2F-AF33-32DCF0A72AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.DataAccess", "PhoneBook.DataAccess\PhoneBook.DataAccess.csproj", "{73D7E635-EEF7-4D54-9EEA-157F42644BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Contracts", "PhoneBook.Contracts\PhoneBook.Contracts.csproj", "{F7012442-7C6F-4A12-B3C4-F84F5412CAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.BusinessLogic", "PhoneBook.BusinessLogic\PhoneBook.BusinessLogic.csproj", "{F47461E6-C78A-417E-BC6F-9F24604E5849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B2B34DAC-73F0-4A2F-AF33-32DCF0A72AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B34DAC-73F0-4A2F-AF33-32DCF0A72AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B34DAC-73F0-4A2F-AF33-32DCF0A72AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D7E635-EEF7-4D54-9EEA-157F42644BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D7E635-EEF7-4D54-9EEA-157F42644BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D7E635-EEF7-4D54-9EEA-157F42644BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D7E635-EEF7-4D54-9EEA-157F42644BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7012442-7C6F-4A12-B3C4-F84F5412CAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7012442-7C6F-4A12-B3C4-F84F5412CAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7012442-7C6F-4A12-B3C4-F84F5412CAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7012442-7C6F-4A12-B3C4-F84F5412CAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47461E6-C78A-417E-BC6F-9F24604E5849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47461E6-C78A-417E-BC6F-9F24604E5849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47461E6-C78A-417E-BC6F-9F24604E5849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47461E6-C78A-417E-BC6F-9F24604E5849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
